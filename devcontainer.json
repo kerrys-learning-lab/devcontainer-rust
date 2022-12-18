@@ -1,0 +1,23 @@
+{
+	"name": "Ubuntu",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+	"workspaceFolder": "/workspace",
+	"remoteUser": "vscode",
+	"service": "dev",
+	"extensions": [
+		"github.remotehub",
+		"github.vscode-pull-request-github",
+		"ms-azuretools.vscode-docker",
+		"ms-vscode.cpptools-extension-pack",
+		"redhat.ansible",
+		"rust-lang.rust-analyzer"
+	],
+	"initializeCommand": "./.devcontainer/execute-lifecycle-phase.sh initialize",
+	"onCreateCommand": "./.devcontainer/execute-lifecycle-phase.sh create",
+	"updateContentCommand": "./.devcontainer/execute-lifecycle-phase.sh update-content",
+	"postCreateCommand": "./.devcontainer/execute-lifecycle-phase.sh post-create",
+	"postStartCommand": "./.devcontainer/execute-lifecycle-phase.sh post-start",
+	"postAttachCommand": "./.devcontainer/execute-lifecycle-phase.sh post-attach"
+}
