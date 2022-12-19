@@ -36,3 +36,4 @@ RUN usermod -a -G docker vscode
 USER vscode
 RUN curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh -s -- -y && \
     /home/vscode/.cargo/bin/cargo install --force cross
+
