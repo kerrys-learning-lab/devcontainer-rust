@@ -1,3 +1,9 @@
+## v1.1.0 (2023-01-24)
+
+### Feat
+
+- Support shared/default lifecycle scripts
+
 ## v1.0.2 (2023-01-15)
 
 ### Fix
