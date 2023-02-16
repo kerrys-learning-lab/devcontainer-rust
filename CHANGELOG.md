@@ -1,3 +1,9 @@
+## v1.2.0 (2023-02-16)
+
+### Feat
+
+- Support build-time metadata
+
 ## v1.1.0 (2023-01-24)
 
 ### Feat
