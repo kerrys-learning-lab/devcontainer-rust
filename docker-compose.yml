@@ -5,6 +5,10 @@ services:
     build:
       context: .
     entrypoint: bash -c "while true; do sleep 1000; done"
+    environment:
+      # Output directory for 'built', which captures build information for use
+      # at runtime
+      - OUT_DIR=/tmp
     volumes:
       - source: ..
         target: /workspace
